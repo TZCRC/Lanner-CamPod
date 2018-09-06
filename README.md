@@ -14,4 +14,4 @@ Each 'pod' consists of:
 * Cables:
     * USB Pi -> camera
     * Shutter release from optocoupler -> camera
- 
+* Housing: steel frame and skin, with screw mount through base for camera and large bolt connector to strut clamp. 
