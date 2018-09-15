@@ -23,7 +23,7 @@ import datetime
 import os
 import csv
 
-fn = 'IMU_data_test.csv'
+fn = '/sdedata/IMU_data_test.csv'
 
 # If the IMU is upside down (Skull logo facing up), change this value to 1
 IMU_UPSIDE_DOWN = 0
@@ -302,7 +302,7 @@ while True:
         print ("# kalmanX %5.2f   kalmanY %5.2f #" % (kalmanX,kalmanY)),
 
     #print a new line
-    print ""  
+    #print ""  
 
     # Save to file
     values = [datetime.datetime.now(), AccXangle, AccYangle, gyroXangle, gyroYangle, gyroZangle, CFangleX, CFangleY, heading, tiltCompensatedHeading]
