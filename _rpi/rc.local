@@ -22,6 +22,6 @@ if [ "$_IP" ]; then
 fi
 
 sudo gpspipe -r -d -l -o /sdedata/data.`date +"%Y%m%d%H%M%S"`.nmea
-python /home/pi/workspace/_github/SDE-CamPod/_rpi/IMU/berryIMU.py
+python /sdedata/berryIMU.py
 
 exit 0
