@@ -1,0 +1,8 @@
+# 20181103-2305
+magXmin =  -705
+magYmin =  -534
+magZmin =  -2054
+magXmax =  752
+magYmax =  1023
+magZmax =  -260
+
