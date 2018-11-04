@@ -1,0 +1,7 @@
+# 20181104-1047 IMU-D
+magXmin =  334
+magYmin =  -354
+magZmin =  -1227
+magXmax =  1914
+magYmax =  1092
+magZmax =  112

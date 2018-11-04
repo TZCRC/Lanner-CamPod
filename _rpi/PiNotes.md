@@ -6,21 +6,47 @@ Setup of the RPi for use as logger system for SDE.
 
 (This assumes SD card set up to connect to local wifi, accept SSH, and hardware attached) 
 
-Housekeeping
+### Housekeeping
 
     ssh-copy-id pi@raspberrypi.local
 	sudo hostname sde-X # Change X to whatever serial needed. MAY need to edit hosts file?
 	sudo sed -i -e 's/raspberrypi/sde-X/g' /etc/hosts 
+	sudo reboot
 
-Basic installs
+### Basic installs
 
 	sudo passwd pi # then change to project password
-	sudo apt update 
-	sudo apt upgrade
+	sudo apt update && sudo apt upgrade
 	sudo apt install i2c-tools libi2c-dev python-smbus # for BerryIMU connection
 	sudo apt install git
-	sudo apt install gpsd gpsd-clients python-gps
+	
+	sudo apt install python-pip
 	sudo apt install python3-pip # For Py3 packages
+	
+### GPS setup:	
+	
+	sudo apt install gpsd gpsd-clients python-gps
+
+(Set gpsd conf for /dev/ttyUSB0) # Note this was different for another USB GPS, instead using ttyAMA0. However this might be because of other /dev/tty* modifications for using the USB as a terminal connection?
+
+Edit /etc/default/gpsd and update DEVICES. The following works for the GlobalSat BU, others need to be confirmed with `ls /dev/ttyUSB*` before and after plugging in.
+
+	DEVICES="/dev/ttyUSB0"
+
+## Data setup
+
+	sudo mkdir /sdedata	
+	sudo chmod 777 /sdedata/
+	
+## Get code
+
+	git clone https://github.com/TZCRC/SDE-CamPod.git
+	
+### Bluetooth setup
+
+This isn't used at present, as we are waiting for code for Android connection.	
+	
+	sudo apt-get install libbluetooth-dev # Untested: needed for following?
 	pip install pybluez # Python 2.7 bluetooth module
 
 ## Boot scripts
@@ -40,6 +66,9 @@ Start IMU script:
 	
 	python /home/pi/workspace/_github/SDE-CamPod/_rpi/IMU/berryIMU.py
 
+## IMU setup
+
+Use config utility `sudo raspi-config`, then select 
 
 ## Android connection 
 
