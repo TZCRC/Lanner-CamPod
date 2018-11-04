@@ -1,0 +1,7 @@
+# 20181104-0855 unit C
+magXmin =  -1057
+magYmin =  -506
+magZmin =  -2040
+magXmax =  330
+magYmax =  1220
+magZmax =  -408
