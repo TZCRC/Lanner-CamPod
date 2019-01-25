@@ -29,9 +29,23 @@ Setup of the RPi for use as logger system for SDE.
 
 (Set gpsd conf for /dev/ttyUSB0) # Note this was different for another USB GPS, instead using ttyAMA0. However this might be because of other /dev/tty* modifications for using the USB as a terminal connection?
 
-Edit /etc/default/gpsd and update DEVICES. The following works for the GlobalSat BU, others need to be confirmed with `ls /dev/ttyUSB*` before and after plugging in.
+	
+
+Edit /etc/default/gpsd and update DEVICES and GPSD_OPTIONS. The following works for the GlobalSat BU, others need to be confirmed with `ls /dev/tty*` or `dmesg | grep tty` before and after plugging in.
 
 	DEVICES="/dev/ttyUSB0"
+	GPSD_OPTIONS="-n"
+	
+
+### GPS as time server
+	
+Edit `/etc/chrony/chrony.conf`, add the following line to the end of the file:
+
+	refclock SHM 0 offset 0.5 delay 0.2 refid NMEA
+
+After reboot, check if NMEA source is in use:
+
+	chronyc sources -v
 
 ## Data setup
 

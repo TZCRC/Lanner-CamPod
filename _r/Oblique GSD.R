@@ -2,6 +2,9 @@
 ### HLF 20180809
 ### What is the GSD (cm resolution of a digital camera) at different focal lengths (zoom), angle from vertical, and height above ground?
 
+# ToDo:
+# 1. Change Phi to down-angle (horizon should be 0, not nadir).
+
 ### Initial work-through ----
 # Camera data -----
 f <- 35 # Focal length in mm
