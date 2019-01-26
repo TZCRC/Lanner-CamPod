@@ -3,7 +3,10 @@ Build information and development for the Cessna camera pod
 
 ## Equipment
 
+![Campod_v1_labelled](/Users/simbamangu/workspace/_github/SDE-CamPod/resources/Campod_v1_labelled.jpg)
+
 Each 'pod' consists of:
+
 * DSLR: Nikon D5600 + fixed lens;
 * Power system:
     * Tethertools battery;
