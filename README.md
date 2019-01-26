@@ -3,7 +3,7 @@ Build information and development for the Cessna camera pod
 
 ## Equipment
 
-![Campod_v1_labelled](../resources/Campod_v1_labelled.jpg)
+![Campod_v1_labelled](resources/Campod_v1_labelled.jpg)
 
 Each 'pod' consists of:
 
