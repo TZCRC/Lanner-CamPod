@@ -23,7 +23,12 @@ import datetime
 import os
 import csv
 
-fn = '/sdedata/IMU_data_test.csv'
+# todo: make this a datestamped file
+fn = '/sdedata/IMU_' + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + '.csv'
+
+with open(fn, 'w') as imucsv:
+  writer = csv.writer(imucsv)
+  writer.writerow(['date', 'AccXangle', 'AccYangle', 'gyroXangle', 'gyroYangle', 'gyroZangle', 'CFangleX', 'CFangleY', 'heading', 'tiltCompensatedHeading'])
 
 # If the IMU is upside down (Skull logo facing up), change this value to 1
 IMU_UPSIDE_DOWN = 0
@@ -313,5 +318,3 @@ while True:
 
     #slow program down a bit, makes the output more readable
     #time.sleep(0.03)
-
-
