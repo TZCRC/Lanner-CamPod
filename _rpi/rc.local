@@ -21,7 +21,8 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-sudo gpspipe -r -d -l -o /sdedata/data.`date +"%Y%m%d%H%M%S"`.nmea
+#sudo gpspipe -r -d -l -o /sdedata/data.`date +"%Y%m%d%H%M%S"`.nmea
+sudo gpxlogger -d -f /sdedata/trk_`date +"%Y%m%d%H%M%S"`.gpx
 python /sdedata/berryIMU.py
 
 exit 0
