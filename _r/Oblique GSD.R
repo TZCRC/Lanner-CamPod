@@ -7,14 +7,14 @@
 
 ### Initial work-through ----
 # Camera data -----
-f <- 35 # Focal length in mm
+f <- 28 # Focal length in mm
 Sw <- 23.2 # Sensor width in mm
 Sh <- 15.4 # Sensor height in mm
 Pw <- 6016 # Sensor pixel width in pixels
 Ph <- 4000 # Sensor pixel height in pixels
 
 ## Positioning data -----
-h <- 450 / 3.28 # Height AGL in m
+h <- 350 / 3.28 # Height AGL in m
 phi <- 45 * pi / 180 # Inclination angle in radians from vertical (0°)
 
 gsdOblique <- function(Sw, f, Sh, phi, h, Pw) {
