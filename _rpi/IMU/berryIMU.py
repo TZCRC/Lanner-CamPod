@@ -23,7 +23,7 @@ import datetime
 import os
 import csv
 
-# todo: make this a datestamped file
+# Set up CSV file with timestamp and correct headers
 fn = '/sdedata/IMU_' + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + '.csv'
 
 with open(fn, 'w') as imucsv:
