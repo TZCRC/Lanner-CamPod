@@ -22,7 +22,7 @@ if [ "$_IP" ]; then
 fi
 
 #sudo gpspipe -r -d -l -o /sdedata/data.`date +"%Y%m%d%H%M%S"`.nmea
-sudo gpxlogger -d -f /sdedata/trk_`date +"%Y%m%d%H%M%S"`.gpx
+gpxlogger -d -f /sdedata/trk_`date +"%Y%m%d%H%M%S"`.gpx
 python /sdedata/berryIMU.py
 
 exit 0
