@@ -47,6 +47,10 @@ After reboot, check if NMEA source is in use:
 
 	chronyc sources -v
 
+2019-03-26 Note on GPS
+
+* Have been using a USB GPS so far but the time sync is probably not
+
 ## Data setup
 
 	sudo mkdir /sdedata	
