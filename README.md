@@ -3,7 +3,7 @@ Oblique aerial photographs of wildlife habitat are at the heart of the MWS wildl
 
 This document outlines the elements and usage of the Lanner camera pod, and suggestions for further development.
 
-![A E4_171925118](/Users/simbamangu/workspace/_github/SDE-CamPod/resources/A E4_180304632.jpg)
+![A E4_171925118](resources/A%20E4_180304632.jpg)
 
 *The "Strut Digital Eyeball" in flight over Ruaha National Park, 2018.*
 
