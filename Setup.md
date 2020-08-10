@@ -2,6 +2,9 @@
 
 This is a brief overview to constructing and setting up a Lanner camera pod system for use in light aircraft. 
 
+* The main software setup for the Raspberry Pi is [here](_rpi/PiNotes.md).
+* Hardware availability has changed in the past 36 months and will be updated soon, but see the diagram in [the main README](./README.md) for the major components.
+
 Also see:
 
 * [Power system notes](./PowerSystem.md)

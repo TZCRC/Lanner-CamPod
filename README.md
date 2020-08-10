@@ -2,7 +2,7 @@
 
 Oblique aerial photographs of wildlife and habitat are becoming an important part of aerial surveys. Some survey implementors have specially modified aircraft which allow cameras to be placed and operated  inside the aircraft cabin, but these modified aircraft are rare and it is extremely difficult and expensive to make modifications to standard aircraft. In 2018-2019 at the Tanzania Wildlife Research Institute we developed a relatively inexpensive oblique camera system that could be attached to any Cessna 172, 182 or 206 wing strut to get the same field of view as a human observer for a sample count. 
 
-This document outlines the elements and usage of the Lanner camera pod, and suggestions for further development. This project is licensed under a 
+This document outlines the elements and usage of the Lanner camera pod, and suggestions for further development. 
 
 ## Attribution & Acknowledgements
 
@@ -118,15 +118,3 @@ Ideal protocol follows
   * Status of storage on phone, battery level, state of photo capture.
   * Control of triggering and interval options.
 
-## License
-
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
-
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg

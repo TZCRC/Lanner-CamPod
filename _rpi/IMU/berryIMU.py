@@ -1,20 +1,27 @@
 #!/usr/bin/python
 #
-#	This program  reads the angles from the acceleromter, gyrscope
-#	and mangnetometeron a BerryIMU connected to a Raspberry Pi.
-#
-#	Both the BerryIMUv1 and BerryIMUv2 are supported
-#
-#	BerryIMUv1 uses LSM9DS0 IMU
-#	BerryIMUv2 uses LSM9DS1 IMU
-#
-#	This program includes a number of calculations to improve the 
-#	values returned from BerryIMU. If this is new to you, it 
-#	may be worthwhile first to look at berryIMU-simple.py, which 
-#	has a much more simplified version of code which would be easier
-#	to read.   
-#
-#	http://ozzmaker.com/
+#	This program  reads the angles from the accelerometer, gyrscope
+#	and mangnetometer on a BerryIMU connected to a Raspberry Pi.
+# Forked from https://github.com/ozzmaker/BerryIMU
+
+##############
+# Acknowledgement and copyright: Developed with support from Vulcan Inc., Seattle, WA. 
+# Copyright Howard L. Frederick (Tanzania Wildlife Research Institute) 2018-2020.
+# Licensed under the Apache License, Version 2.0 (the "License");
+#you may not use this file except in compliance with the License.
+
+# You may obtain a copy of the License at
+
+#    http://www.apache.org/licenses/LICENSE-2.0
+
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+##############
+# You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 (https://ohwr.org/cern_ohl_p_v2.txt) for applicable conditions.
+
 
 import time
 import math

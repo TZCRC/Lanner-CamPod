@@ -94,3 +94,22 @@ Use config utility `sudo raspi-config`, then select
 
 	sudo bluetoothctl
 	sudo echo "PRETTY_HOSTNAME=sde-X" > /etc/machine-info # Set a better name for Pi in BT broadcast.
+
+## Attribution & Acknowledgements
+
+Copyright Howard L. Frederick ([Tanzania Wildlife Research Institute](https://www.tawiri.or.tz)) 2018-2020.
+
+Developed with support from [Vulcan Inc., Seattle, WA](https://www.vulcan.com/). 
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+## Documentation license
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
