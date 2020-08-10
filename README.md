@@ -1,18 +1,16 @@
----
-output:
-  word_document: default
-  html_document: default
----
 # Lanner CamPod
-Oblique aerial photographs of wildlife habitat are at the heart of the MWS wildlife survey system. Some survey implementors have specially modified aircraft which allow cameras to be placed and operated  inside the aircraft cabin, but these modified aircraft are rare and it is extremely difficult and expensive to make modifications to standard aircraft. In 2018 we developed a relatively inexpensive oblique camera system that could be attached to any Cessna 172, 182 or 206 wing strut to get the same field of view as a human observer for a sample count. 
 
-This document outlines the elements and usage of the Lanner camera pod, and suggestions for further development.
+Oblique aerial photographs of wildlife and habitat are becoming an important part of aerial surveys. Some survey implementors have specially modified aircraft which allow cameras to be placed and operated  inside the aircraft cabin, but these modified aircraft are rare and it is extremely difficult and expensive to make modifications to standard aircraft. In 2018-2019 at the Tanzania Wildlife Research Institute we developed a relatively inexpensive oblique camera system that could be attached to any Cessna 172, 182 or 206 wing strut to get the same field of view as a human observer for a sample count. 
 
-![A E4_171925118](resources/A%20E4_180304632.jpg)
+This document outlines the elements and usage of the Lanner camera pod, and suggestions for further development. This project is licensed under a 
 
-*The "Strut Digital Eyeball" in flight over Ruaha National Park, 2018.*
+## Attribution & Acknowledgements
 
+Copyright Howard L. Frederick ([Tanzania Wildlife Research Institute](https://www.tawiri.or.tz)) 2018-2020.
 
+Developed with support from [Vulcan Inc., Seattle, WA](https://www.vulcan.com/). 
+
+![The "Strut Digital Eyeball" in flight over Ruaha National Park, 2018.](resources/A%20E4_180304632.jpg)
 
 ## Aims & mission profile
 
@@ -120,5 +118,15 @@ Ideal protocol follows
   * Status of storage on phone, battery level, state of photo capture.
   * Control of triggering and interval options.
 
+## License
 
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
