@@ -41,7 +41,7 @@ Each 'pod' consists of:
 
 * DSLR: Nikon D5600 + fixed lens;
 * Power system:
-    * Tethertools "Case Relay" battery which acts as a sort of uninterruptible power supply, taking power from the battery bank and providing constant power to the camera;
+    * [Tethertools "Case Relay" battery](https://www.tethertools.com/product-category/power-management/case-relay-camera-power/) which acts as a sort of uninterruptible power supply, taking power from the battery bank and providing constant power to the camera;
     * USB battery bank, ~ 10,000 mAh;
 * Controller / logger: Raspberry Pi 3 (or Zero), connected to:
     * Intertial Measurement Unit: BerryGPS-IMU, which takes readings of all angles and headings;
