@@ -118,3 +118,5 @@ Ideal protocol follows
   * Status of storage on phone, battery level, state of photo capture.
   * Control of triggering and interval options.
 
+## ToDo list
+
