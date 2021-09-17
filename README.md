@@ -2,7 +2,9 @@
 
 Oblique aerial photographs of wildlife and habitat are becoming an important part of aerial surveys. Some survey implementors have specially modified aircraft which allow cameras to be placed and operated  inside the aircraft cabin, but these modified aircraft are rare and it is extremely difficult and expensive to make modifications to standard aircraft. In 2018-2019 at the Tanzania Wildlife Research Institute we developed a relatively inexpensive oblique camera system that could be attached to any Cessna 172, 182 or 206 wing strut to get the same field of view as a human observer for a sample count. 
 
-This document outlines the elements and usage of the Lanner camera pod, and suggestions for further development. 
+This document outlines the elements and usage of the v1 Lanner camera pod, and suggestions for further development. 
+
+Late 2021: v2 is under development, with updates to follow.
 
 ## Attribution & Acknowledgements
 
@@ -17,7 +19,7 @@ Developed with support from [Vulcan Inc., Seattle, WA](https://www.vulcan.com/).
 The requirements of the camera system are to be able to take stable, hi-quality photographs on a continuous basis during flight, ideally with 50% overlap between images, and recording the angles of view to be able to reconstruct the geometry of the photographic footprint.
 
 * Flight duration: 
-  * Sample count flight with human observers: 4-5 hours;
+  * Sample count flight with human observers: 3.5-4 hours;
   * Photographic-only flight: 4-7 hours.
 * Metadata:
   * Camera image with time (subsecond) and general metadata (exposure, ISO, etc);
@@ -91,7 +93,7 @@ Ideal protocol follows
 * Photographic quality was generally excellent, with easily-distinguishable wildlife down to impala size and smaller. 
 * Images had noticable reduced sharpness at the edges at F5-F5.6 (which was the setting for most of the RR images). 
   * This criticism of sharpness is fairly personal, and the PI has been informed that he's being overly picky.
-  * Tests determined better sharpness with aperture at F7.1, and later images were set accordingly. This results in 
+  * Tests determined better sharpness with aperture at F7.1, and later images were set accordingly. This results in better sharpness at the edges (particularly corners) of the image, but the image quality in these corners is noticably poorer.
   * A better lens is needed - turns out this one (Nikkor 28mm) is not known as being terribly sharp. However, it's unsure if a decent combination of small size, focal length and good sharpness is possible. The Sigma Art 28mm is incredibly good but  larger in length, overall volume and weight.
 * Auto-ISO settings with 1/2000 speed and any allowable ISO up to 25,600 meant motion blur was unnoticable. The higher ISO values - particularly in the early morning, had a lot of noise, but by the time the target area was 
 * The combination of fast shutter speed and the rubber mounts on the connector from housing to clamp seem to have reduced any significant vibration as well, compared to the results that Richard Lamprey reports from a fixed (steel-on-steel) mount from Tsavo.
