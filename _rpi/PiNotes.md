@@ -27,15 +27,16 @@ Setup of the RPi for use as logger system for SDE.
 
 	sudo apt install gpsd gpsd-clients python-gps
 
-(Set gpsd conf for /dev/ttyUSB0) # Note this was different for another USB GPS, instead using ttyAMA0. However this might be because of other /dev/tty* modifications for using the USB as a terminal connection?
-
-​	
 
 Edit /etc/default/gpsd and update DEVICES and GPSD_OPTIONS. The following works for the GlobalSat BU, others need to be confirmed with `ls /dev/tty*` or `dmesg | grep tty` before and after plugging in.
 
 	DEVICES="/dev/ttyUSB0"
 	GPSD_OPTIONS="-n"
 
+For BerryGPS:
+
+	DEVICES="/dev/ttySerial0"
+	GPSD_OPTIONS="-n"
 
 ### GPS as time server
 
@@ -49,7 +50,11 @@ After reboot, check if NMEA source is in use:
 
 2019-03-26 Note on GPS
 
-* Have been using a USB GPS so far but the time sync is probably not
+* Have been using a USB GPS so far but the time sync seems to be very inaccurate (+/- 500ms or more). 
+  
+2021-09-17 GPS sync:
+
+* BerryGPS-IMU with external antenna give 110ms accuracy in chrony. #ToDo: If a PPS signal is used (necessitates soldering wire to GPIO) will be even more accurate (ToDo).
 
 ## Data setup
 
@@ -76,9 +81,10 @@ Add logging option to see if anything goes wrong with the scripts:
 	exec 1>/tmp/rc.local.log 2>&1  # send stdout and stderr from rc.local to a log file
 	set -x
 
-Start gpslogger logging to a GPX file:
+~~Start gpxlogger logging to a GPX file:~~ Start GPSpipe running as daemon - will continue to run and log, whereas GPXlogger has not worked effectively (constantly needs to be restarted?)
 
-	sudo gpslogger -d -f /sdedata/trk_`date +"%Y%m%d%H%M%S"`.gpx
+	# gpxlogger -d -f /sdedata/trk_`date +"%Y%m%d%H%M%S"`.gpx
+	gpspipe -r -f -f /sdedata/trk_`date +"%Y%m%d%H%M%S"`.nmea
 
 Start IMU script:
 	
