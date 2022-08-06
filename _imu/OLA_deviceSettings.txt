@@ -1,0 +1,15 @@
+GPS-ublox.3.66.0.0.log=1
+GPS-ublox.3.66.0.0.logDate=1
+GPS-ublox.3.66.0.0.logTime=1
+GPS-ublox.3.66.0.0.logPosition=1
+GPS-ublox.3.66.0.0.logAltitude=1
+GPS-ublox.3.66.0.0.logAltitudeMSL=0
+GPS-ublox.3.66.0.0.logSIV=1
+GPS-ublox.3.66.0.0.logFixType=1
+GPS-ublox.3.66.0.0.logCarrierSolution=0
+GPS-ublox.3.66.0.0.logGroundSpeed=1
+GPS-ublox.3.66.0.0.logHeadingOfMotion=1
+GPS-ublox.3.66.0.0.logpDOP=1
+GPS-ublox.3.66.0.0.logiTOW=0
+GPS-ublox.3.66.0.0.i2cSpeed=100000
+GPS-ublox.3.66.0.0.useAutoPVT=0
