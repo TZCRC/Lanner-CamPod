@@ -1,6 +1,6 @@
 "
 
-For software files in this github https://github.com/TZCRC/SDE-CamPod:
+For software files in this github https://github.com/TZCRC/Lanner-CamPod:
 
 - Acknowledgement and copyright: Developed with support from Vulcan Inc., Seattle, WA. 
 - Copyright Howard L. Frederick (Tanzania Wildlife Research Institute) 2018-2020.

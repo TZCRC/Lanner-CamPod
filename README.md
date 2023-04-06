@@ -1,18 +1,23 @@
+![Lanner camera pod on Cessna](resources/Lanner_v2_aerial_1.jpg)
+
 # Lanner CamPod
 
 Oblique aerial photographs of wildlife and habitat are becoming an important part of aerial surveys. Some survey implementors have specially modified aircraft which allow cameras to be placed and operated  inside the aircraft cabin, but these modified aircraft are rare and it is extremely difficult and expensive to make modifications to standard aircraft. In 2018-2019 at the Tanzania Wildlife Research Institute we developed a relatively inexpensive oblique camera system that could be attached to any Cessna 172, 182 or 206 wing strut to get the same field of view as a human observer for a sample count. 
 
-This document outlines the elements and usage of the v1 Lanner camera pod, and suggestions for further development. 
+This document outlines the elements and usage of the v2 Lanner camera pod, and suggestions for further development. The v1 site is available as a [release](https://github.com/TZCRC/Lanner-CamPod/releases/tag/v1) (click then download and unzip).
 
-Late 2021: v2 is under development, with updates to follow.
+## Resources
 
+* [_drawings](_drawings) - mechanical drawings for the pod housing.
+* _hardware - 3D-printable components and equipment specifications
+* _logger - files for setting up and configuring the OpenLog Artemis system.
 ## Attribution & Acknowledgements
 
 Copyright Howard L. Frederick ([Tanzania Wildlife Research Institute](https://www.tawiri.or.tz)) 2018-2020.
 
-Developed with support from [Vulcan Inc., Seattle, WA](https://www.vulcan.com/). 
+Developed with support from [Vulcan Inc., Seattle, WA](https://www.vulcan.com/) and the Paul G Allen Foundation. 
 
-![The "Strut Digital Eyeball" in flight over Ruaha National Park, 2018.](resources/A%20E4_180304632.jpg)
+![The "Strut Digital Eyeball" in flight over Ruaha National Park, 2018.](resources/Lanner_v1_CFA-strut.jpg)
 
 ## Aims & mission profile
 
