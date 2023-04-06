@@ -1,4 +1,4 @@
-![Lanner camera pod on Cessna](resources/Lanner_v2_aerial_1.jpg)
+![Lanner camera pod on Cessna](resources/Pod-clamp-assembled_1.jpg)
 
 # Lanner CamPod
 
