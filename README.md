@@ -46,36 +46,37 @@ The requirements of the camera system are to be able to take stable, hi-quality 
 
 Each 'pod' consists of:
 
-* DSLR: Nikon D5600 + fixed lens;
+* DSLR or mirrorless ([EVIL](https://en.wikipedia.org/wiki/Mirrorless_camera)) camera.
 * Power system:
-    * [Tethertools "Case Relay" battery](https://www.tethertools.com/product-category/power-management/case-relay-camera-power/) which acts as a sort of uninterruptible power supply, taking power from the battery bank and providing constant power to the camera;
-    * USB battery bank, ~ 10,000 mAh;
-* Controller / logger: Raspberry Pi 3 (or Zero), connected to:
-    * Intertial Measurement Unit: BerryGPS-IMU, which takes readings of all angles and headings;
-    * **Optocoupler to trigger camera via cable release port*
-    * GPS system:
-      * USB GPS, or
-      * External GPS antenna attached directly to the BerryGPS-IMU.
+    * For Sony a7-series, a PD powerbank with USB-C connection. See the [Power System](PowerSystem.md) page for important notes about these powerbanks and Sonys.
+    * [Tethertools "Case Relay" battery](https://www.tethertools.com/product-category/power-management/case-relay-camera-power/) which acts as a sort of uninterruptible power supply, taking power from the battery bank and providing constant power to the camera, plus a USB battery bank with USB-A.
+* Controller / logger: a Sparkfun Openlog Artemis board:
+    * Logs all data to a microSD card automatically.
+    * GPS board attached by I2C (QWIIC) connector.
+    * LiOn battery for ~ 10h of logging time.
 * Cables:
-    * USB micro from battery bank to raspberry pi;
-    * **Shutter release from optocoupler -> camera*
+    * USB-C power cable from external battery to camera.
+
 * Housing: steel frame and skin, with screw mount through base for camera and large bolt connector to strut clamp. 
 
 **Not yet implemented*
 
 ## Fieldwork so far and lessons learned
 
-### 2018:
+### 2022
 
-Camera pods were trialled in Ruaha-Katavi-Lukwati (RR) and Selous-Mikumi (SL) ecosystems in late 2018 as part of the TAWIRI aerial survey programme. Surveys were primarily funded by WCS and FZS, respectively, and covered 90,000 km² and 110,000 km².
-
-Approximately 200,000 images were collected in RR, and 150,000 in SL.
+Lanner pods were used extensively in Zambia during the 2022 KAZA aerial census. Field notes will be updated here soon.
 
 ### 2019:
 
 A set of images was collected in Tarangire National Park with a redesigned housing system, where the camera pod was fitted to a microlight (Savannah) using a two-point attachment system.
 
 For the RR-SL systems, a further 25,000 images were collected in the corridor between the two ecosystems as part of a trial monitoring system for the corridor (for WCS Tanzania).
+### 2018:
+
+Camera pods were trialled in Ruaha-Katavi-Lukwati (RR) and Selous-Mikumi (SL) ecosystems in late 2018 as part of the TAWIRI aerial survey programme. Surveys were primarily funded by WCS and FZS, respectively, and covered 90,000 km² and 110,000 km².
+
+Approximately 200,000 images were collected in RR, and 150,000 in SL.
 
 ### Protocol
 

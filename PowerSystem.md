@@ -4,6 +4,13 @@ Power is needed to run the camera and the RPi for a 5+ hour mission.
 
 ## Power requirements
 
+### Sony Alpha 7s
+
+Unlike many other cameras, the Sony a7 series can be powered by a USB powerbank and cable.
+
+* The powerbank must be a "power delivery" (PD) model, capable of delivering at least 18W of power. Other powerbanks may seem work, but the internal battery and the external will be drained simultaneously and **the camera body can get very hot**.
+* Test the USB cable from power bank to camera - not all cables are made equal (by a long shot), and you may find that a good _data_ cable doesn't provide enough wattage to run the camera. In contrast, the uGreen cables used for fieldwork were poor for data but had excellent power capacity.
+
 ### Nikon
 
 Normal EN-EL5a battery:
