@@ -8,7 +8,7 @@ Power is needed to run the camera and the RPi for a 5+ hour mission.
 
 Unlike many other cameras, the Sony a7 series can be powered by a USB powerbank and cable.
 
-* The powerbank must be a "power delivery" (PD) model, capable of delivering at least 18W of power. Other powerbanks may seem work, but the internal battery and the external will be drained simultaneously and **the camera body can get very hot**.
+* The powerbank must be a "power delivery" (PD) model, capable of delivering at least 18W of power. Other powerbanks may seem work, but the internal battery and the external will be drained simultaneously and **the camera body can get very hot**. Testing is vital.
 * Test the USB cable from power bank to camera - not all cables are made equal (by a long shot), and you may find that a good _data_ cable doesn't provide enough wattage to run the camera. In contrast, the uGreen cables used for fieldwork were poor for data but had excellent power capacity.
 
 ### Nikon
@@ -18,10 +18,18 @@ Normal EN-EL5a battery:
 * Lasts for ~2,700 images
 
 External power supplies:
-* AC-DC (as per Lamprey) easy to find on Amazon;
-* DC
+* AC-DC easy to find on Amazon but require a 120 or 240VAC source.
+* DC from USB powerbank and via the Tethertools connector and dummy battery.
 
 ## Power tests
+
+2022 Bench testing
+
+* Sony a74
+* Powerology 10Ah powerbank
+* 2s intervals.
+
+~ 9h of operation until SD card filled up.
 
 2018-09-10 Bench test with full system
 * Anker power supply ~ full
