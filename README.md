@@ -6,6 +6,8 @@ Oblique aerial photographs of wildlife and habitat are becoming an important par
 
 This document outlines the elements and usage of the v2 Lanner camera pod, and suggestions for further development. The v1 site is available as a [release](https://github.com/TZCRC/Lanner-CamPod/releases/tag/v1) (click then download and unzip).
 
+Go to the code view to see all the resources
+
 ## Resources
 
 * [_drawings](_drawings) - mechanical drawings for the pod housing.
@@ -50,7 +52,7 @@ Each 'pod' consists of:
 * Power system:
     * For Sony a7-series, a PD powerbank with USB-C connection. See the [Power System](PowerSystem.md) page for important notes about these powerbanks and Sonys.
     * [Tethertools "Case Relay" battery](https://www.tethertools.com/product-category/power-management/case-relay-camera-power/) which acts as a sort of uninterruptible power supply, taking power from the battery bank and providing constant power to the camera, plus a USB battery bank with USB-A.
-* Controller / logger: a Sparkfun Openlog Artemis board:
+* Controller / logger: [a Sparkfun Openlog Artemis board](_logger/README.md):
     * Logs all data to a microSD card automatically.
     * GPS board attached by I2C (QWIIC) connector.
     * LiOn battery for ~ 10h of logging time.
